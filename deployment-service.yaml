@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: boardgame
-          image: dpac9525/devops-boardgame:${BUILD_NUMBER}
+          image: 10.8.55.158:5000/devops-boardgame:${BUILD_NUMBER}
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
